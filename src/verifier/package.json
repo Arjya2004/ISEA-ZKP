@@ -1,0 +1,16 @@
+{
+    "name": "crcs-verifier",
+    "version": "0.1.0",
+    "description": "CRCS Verifier, Collusion Demo, and Benchmarks",
+    "main": "verifier.js",
+    "scripts": {
+        "verify": "node verifier.js",
+        "demo": "node collusion_demo.js",
+        "benchmark": "node benchmark.js",
+        "generate-input": "node ../circuits/generate_input.js"
+    },
+    "dependencies": {
+        "snarkjs": "^0.7.4",
+        "circomlibjs": "^0.1.7"
+    }
+}

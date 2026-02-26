@@ -1,0 +1,37 @@
+# Build artifacts
+target/
+build/
+node_modules/
+
+# Circuit artifacts
+src/circuits/build/
+*.wtns
+*.r1cs
+*.sym
+*.zkey
+*.ptau
+
+# Proof artifacts
+demo_output/
+*.proof
+proof.json
+public.json
+witness.wtns
+
+# Credentials (contain secrets!)
+credential.json
+input.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Benchmarks output (regenerated)
+benchmarks/bank_transcript.json
+benchmarks/insurance_transcript.json
